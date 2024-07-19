@@ -30,10 +30,28 @@ ul {
 }
 
 /* Layout */
+.flex {
+    display: flex;
+}
+
+.flex.row {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    background-color: #000;
+    flex-basis: 250px;
+}
+
 main {
-    height: calc(100vh - 125px);
     background-color: #141922;
+    flex-grow: 1;
     overflow-y: auto;
+}
+
+.content-top {
+    height: calc(100vh - 125px);
 }
 
 #main-footer {
