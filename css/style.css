@@ -36,12 +36,16 @@ ul {
 
 .flex.row {
     flex-direction: row;
-    flex-wrap: wrap;
+}
+
+.content-top {
+    height: calc(100vh - 125px);
 }
 
 .sidebar {
     background-color: #000;
     flex-basis: 250px;
+    flex-shrink: 0;
 }
 
 main {
@@ -50,8 +54,11 @@ main {
     overflow-y: auto;
 }
 
-.content-top {
-    height: calc(100vh - 125px);
+header {
+    min-height: 75px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
 }
 
 #main-footer {
