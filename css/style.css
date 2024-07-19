@@ -28,3 +28,15 @@ ul {
     margin: 0 auto;
     max-width: 1080px;
 }
+
+/* Layout */
+main {
+    height: calc(100vh - 125px);
+    background-color: #141922;
+    overflow-y: auto;
+}
+
+#main-footer {
+    height: 125px;
+    background-color: #282828;
+}
