@@ -14,6 +14,13 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+h2 {
+    color: #FFF;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -69,6 +76,45 @@ header {
     border: 1px solid currentColor;
     padding: 5px 15px;
     font-size: 15px;
+}
+
+.navbar {
+    padding: 25px;
+}
+
+.navbar > ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.navbar a {
+    color: #75787D;
+    font-size: 15px;
+}
+
+section {
+    padding: 25px;
+}
+
+section > .row {
+    flex-wrap: wrap;
+    margin: -12.5px;
+}
+
+section .col {
+    flex-basis: calc(100% / 6);
+    padding: 12.5px;
+}
+
+section .card-img {
+    min-height: 125px;
+    background-color: #000;
+}
+
+section .card-txt {
+    min-height: 75px;
+    background-color: orangered;
 }
 
 #main-footer {

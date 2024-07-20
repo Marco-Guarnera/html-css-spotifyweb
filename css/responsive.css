@@ -1,9 +1,13 @@
-@media screen and (max-width: 991px) {
-
+@media screen and (max-width: 992px) {
+    section .col {
+        flex-basis: calc(100% / 4);
+    }
 }
 
-@media screen and (max-width: 767px) {
-
+@media screen and (max-width: 768px) {
+    section .col {
+        flex-basis: calc(100% / 2);
+    }
 }
 
 @media screen and (max-width: 576px) {
