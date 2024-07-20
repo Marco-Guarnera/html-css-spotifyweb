@@ -59,6 +59,16 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     position: sticky;
     top: 0;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px;
+}
+
+.btn {
+    color: #FFF;
+    border: 1px solid currentColor;
+    padding: 5px 15px;
+    font-size: 15px;
 }
 
 #main-footer {
