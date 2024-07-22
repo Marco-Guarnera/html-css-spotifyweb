@@ -170,10 +170,6 @@ section > div:nth-child(1) {
     background-color: #FFF;
 }
 
-#main-footer > div {
-    background-color: #000;
-}
-
 .col-left, .col-right {
     height: 50px;
     flex-basis: 200px;
@@ -187,18 +183,6 @@ section > div:nth-child(1) {
 
 .col-left > div {
     gap: 15px;
-}
-
-.col-left h3 {
-    font-size: 15px;
-    line-height: 15px;
-    margin-bottom: 5px;
-}
-
-.col-left h4 {
-    color: #75787D;
-    font-size: 10px;
-    line-height: 10px;
 }
 
 .col-left img {
