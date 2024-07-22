@@ -24,7 +24,20 @@ h2 {
     color: #FFF;
     font-size: 25px;
     line-height: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #FFF;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    color: #75787D;
+    font-size: 10px;
+    line-height: 10px;
 }
 
 img {
@@ -65,6 +78,7 @@ ul {
     flex-shrink: 0;
 }
 
+/* Main */
 main {
     background-color: #141922;
     flex-grow: 1;
@@ -85,7 +99,9 @@ header {
     color: #FFF;
     border: 1px solid currentColor;
     padding: 5px 15px;
-    font-size: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .navbar {
@@ -100,11 +116,20 @@ header {
 
 .navbar a {
     color: #75787D;
-    font-size: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 section {
     padding: 25px;
+}
+
+.tip {
+    color: #75787D;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 10px;
 }
 
 section > .row {
@@ -123,8 +148,12 @@ section .card-img {
 }
 
 section .card-txt {
-    min-height: 75px;
-    background-color: orangered;
+    padding-top: 15px;
+    text-align: center;
+}
+
+section > div:nth-child(1) {
+    margin-bottom: 25px;
 }
 
 /* Main Footer */
