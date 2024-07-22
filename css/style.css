@@ -14,6 +14,12 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+button {
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+}
+
 h2 {
     color: #FFF;
     font-size: 25px;
@@ -43,6 +49,10 @@ ul {
 
 .flex.row {
     flex-direction: row;
+}
+
+.flex.column {
+    flex-direction: column;
 }
 
 .content-top {
@@ -117,7 +127,97 @@ section .card-txt {
     background-color: orangered;
 }
 
+/* Main Footer */
 #main-footer {
     height: 125px;
     background-color: #282828;
+    padding: 25px;
+    align-items: center;
+    gap: 25px;
+}
+
+.bar {
+    height: 3px;
+    background-color: #FFF;
+}
+
+#main-footer > div {
+    background-color: #000;
+}
+
+.col-left, .col-right {
+    height: 50px;
+    flex-basis: 200px;
+}
+
+.col-left {
+    color: #FFF;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-left > div {
+    gap: 15px;
+}
+
+.col-left h3 {
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+.col-left h4 {
+    color: #75787D;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.col-left img {
+    width: 50px;
+}
+
+.col-left ul {
+    gap: 15px;
+}
+
+.col-center {
+    height: 75px;
+    color: #FFF;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 15px;
+}
+
+.col-center > ul {
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.col-center > div {
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.col-center span {
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.col-center .bar {
+    flex-basis: 50%;
+}
+
+.col-right {
+    align-items: center;
+    gap: 15px;
+}
+
+.col-right > ul {
+    gap: 15px;
+}
+
+.col-right > div {
+    flex-grow: 1;
 }

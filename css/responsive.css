@@ -8,6 +8,10 @@
     section .col {
         flex-basis: calc(100% / 2);
     }
+
+    .col-left ul {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 576px) {
