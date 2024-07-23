@@ -17,5 +17,24 @@
 @media screen and (max-width: 576px) {
     .sidebar {
         flex-basis: 50px;
+        padding: 0;
+    }
+
+    .sidebar header,
+    .sidebar li,
+    .sidebar footer > div {
+        justify-content: center;
+    }
+
+    .sidebar header > img.show {
+        display: block;
+    }
+
+    .sidebar footer > div:first-child {
+        border-bottom: none;
+    }
+
+    .hide {
+        display: none;
     }
 }
