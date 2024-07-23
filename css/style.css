@@ -15,6 +15,7 @@ body {
 }
 
 button {
+    cursor: pointer;
     color: #FFF;
     background-color: transparent;
     border: none;
@@ -55,17 +56,7 @@ ul {
     max-width: 1080px;
 }
 
-.btn {
-    color: #FFF;
-    border: 1px solid currentColor;
-    border-radius: 25px;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 12px;
-    padding: 15px 45px;
-    text-transform: uppercase;
-}
-
+/* Bars */
 .bar {
     height: 3px;
     border-radius: 5px;
@@ -78,6 +69,24 @@ ul {
 .bar.full-bar {
     width: 25%;
     background-color: #FFF;
+}
+
+/* Buttons */
+.btn {
+    color: #FFF;
+    border: 1px solid currentColor;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 12px;
+    padding: 15px 45px;
+    text-transform: uppercase;
+}
+
+/* Icons */
+.fa-plus {
+    color: #000;
+    font-size: 15px;
 }
 
 /* Layout */
@@ -93,6 +102,7 @@ ul {
     flex-direction: column;
 }
 
+/* Content Top */
 .content-top {
     height: calc(100vh - 125px);
 }
@@ -111,16 +121,17 @@ ul {
     align-items: center;
 }
 
-.sidebar header > img.hide {
+.sidebar header img.hide {
     width: 50%;
 }
 
-.sidebar header > img.show {
+.sidebar header img.show {
     display: none;
-    width: 40%;
+    margin: 0 auto;
+    width: 50%;
 }
 
-.sidebar ul {
+.sidebar ul.functions {
     margin-bottom: 25px;
 }
 
@@ -136,9 +147,9 @@ ul {
 
 .sidebar a {
     color: #75787D;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
-    line-height: 10px;
+    line-height: 12px;
 }
 
 .sidebar h3 {
@@ -151,7 +162,7 @@ ul {
     margin: 15px 0;
 }
 
-.sidebar .add {
+.sidebar button.add {
     height: 40px;
     width: 40px;
     background-color: #75787D;
@@ -169,14 +180,14 @@ ul {
     padding: 15px 0;
 }
 
-.sidebar .profile {
+.sidebar .user {
     height: 20px;
     width: 20px;
     background-color: #75787D;
     border-radius: 50%;
 }
 
-.sidebar .profile > img {
+.sidebar .user > img {
     margin: 0 auto;
 }
 
@@ -191,6 +202,10 @@ ul {
 
 .sidebar footer img {
     width: 15px;
+}
+
+a.active {
+    color: #FFF;
 }
 
 /* Main */

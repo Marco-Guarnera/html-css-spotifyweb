@@ -20,18 +20,18 @@
         padding: 0;
     }
 
-    .sidebar header,
     .sidebar li,
     .sidebar footer > div {
         justify-content: center;
     }
 
-    .sidebar header > img.show {
+    .sidebar header img.show {
         display: block;
     }
 
     .sidebar footer > div:first-child {
         border-bottom: none;
+        padding: 0;
     }
 
     .hide {
