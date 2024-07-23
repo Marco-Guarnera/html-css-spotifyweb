@@ -36,8 +36,8 @@ h3 {
 
 h4 {
     color: #75787D;
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 12px;
+    line-height: 12px;
 }
 
 img {
@@ -53,6 +53,17 @@ ul {
 .wrapper {
     margin: 0 auto;
     max-width: 1080px;
+}
+
+.btn {
+    color: #FFF;
+    border: 1px solid currentColor;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 12px;
+    padding: 15px 45px;
+    text-transform: uppercase;
 }
 
 .bar {
@@ -189,6 +200,10 @@ main {
     overflow-y: auto;
 }
 
+main > * {
+    padding: 25px;
+}
+
 main > header {
     min-height: 75px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -196,20 +211,6 @@ main > header {
     top: 0;
     justify-content: flex-end;
     align-items: center;
-    padding: 25px;
-}
-
-.btn {
-    color: #FFF;
-    border: 1px solid currentColor;
-    padding: 5px 15px;
-    font-size: 10px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.navbar {
-    padding: 25px;
 }
 
 .navbar > ul {
@@ -220,20 +221,17 @@ main > header {
 
 .navbar a {
     color: #75787D;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
+    line-height: 12px;
     text-transform: uppercase;
 }
 
-section {
-    padding: 25px;
-}
-
-.tip {
+section .tip {
     color: #75787D;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
-    line-height: 10px;
+    line-height: 12px;
 }
 
 section > .row {
@@ -247,17 +245,19 @@ section .col {
 }
 
 section .card-img {
-    min-height: 125px;
-    background-color: #000;
+    margin-bottom: 15px;
 }
 
 section .card-txt {
-    padding-top: 15px;
     text-align: center;
 }
 
 section > div:nth-child(1) {
     margin-bottom: 25px;
+}
+
+#most-popular-artists img {
+    border-radius: 50%;
 }
 
 /* Main Footer */
