@@ -55,6 +55,20 @@ ul {
     max-width: 1080px;
 }
 
+.bar {
+    height: 3px;
+    border-radius: 5px;
+}
+
+.bar.empty-bar {
+    background-color: #75787D;
+}
+
+.bar.full-bar {
+    width: 25%;
+    background-color: #FFF;
+}
+
 /* Layout */
 .flex {
     display: flex;
@@ -255,23 +269,18 @@ section > div:nth-child(1) {
     gap: 25px;
 }
 
-.bar {
-    height: 3px;
-    background-color: #FFF;
-}
-
 .col-left, .col-right {
     height: 50px;
     flex-basis: 200px;
 }
 
 .col-left {
-    color: #FFF;
     justify-content: space-between;
     align-items: center;
 }
 
 .col-left > div {
+    align-items: center;
     gap: 15px;
 }
 
@@ -283,9 +292,13 @@ section > div:nth-child(1) {
     gap: 15px;
 }
 
+.col-left button {
+    color: #75787D;
+    font-size: 15px;
+}
+
 .col-center {
     height: 75px;
-    color: #FFF;
     flex-grow: 1;
     justify-content: center;
     gap: 15px;
@@ -303,9 +316,10 @@ section > div:nth-child(1) {
     gap: 25px;
 }
 
-.col-center span {
-    font-size: 10px;
-    line-height: 10px;
+.col-center time {
+    color: #FFF;
+    font-size: 12px;
+    line-height: 12px;
 }
 
 .col-center .bar {
@@ -321,6 +335,6 @@ section > div:nth-child(1) {
     gap: 15px;
 }
 
-.col-right > div {
+.col-right .bar {
     flex-grow: 1;
 }
