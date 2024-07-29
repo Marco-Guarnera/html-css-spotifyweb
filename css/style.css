@@ -76,10 +76,10 @@ ul {
     color: #FFF;
     border: 1px solid currentColor;
     border-radius: 25px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
-    line-height: 12px;
-    padding: 15px 45px;
+    line-height: 10px;
+    padding: 10px 30px;
     text-transform: uppercase;
 }
 
@@ -104,13 +104,13 @@ ul {
 
 /* Content Top */
 .content-top {
-    height: calc(100vh - 125px);
+    height: calc(100vh - 100px);
 }
 
 /* Sidebar */
 .sidebar {
     background-color: #000;
-    flex-basis: 250px;
+    flex-basis: 200px;
     flex-shrink: 0;
     justify-content: space-between;
     padding: 0 25px;
@@ -122,7 +122,7 @@ ul {
 }
 
 .sidebar header img.hide {
-    width: 50%;
+    width: 75%;
 }
 
 .sidebar header img.show {
@@ -277,7 +277,7 @@ section > div:nth-child(1) {
 
 /* Main Footer */
 #main-footer {
-    height: 125px;
+    height: 100px;
     background-color: #282828;
     padding: 25px;
     align-items: center;
